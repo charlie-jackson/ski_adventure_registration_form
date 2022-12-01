@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Open+Sans:wght@600&display=swap"
+          rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>The ultimate ski adventure</title>
+</head>
+
+<body>
+
+<div class="container">
+    <form class="left" action="" method="get">
+        <h2 class="register">Register for the ultimate ski adventure</h2>
+        <h3 class="basic-info">Your basic info</h3>
+
+        <section class="your-basic-info">
+            <div class="enter-name">
+                <label for="name">Name and surname <span class="red-mark">*</span></label>
+                <input type="text" name="name" id="name" required class="name">
+            </div>
+            <div class="enter-email">
+                <label for="email">Email <span class="red-mark">*</span></label>
+                <input type="email" name="email" id="email" required class="email" placeholder="example@mail.com">
+            </div>
+            <div class="enter-password">
+                <label for="password">Password <span class="red-mark">*</span></label>
+                <input type="password" name="password" id="password" required class="password" placeholder="****">
+            </div>
+        </section>
+
+        <fieldset class="fieldset">
+            <legend class="age">Age</legend>
+            <label>
+                <input type="radio" name="radio" class="radio" />
+                Under 18
+            </label>
+            <label>
+                <input type="radio" name="radio" class="radio" />
+                18 and over
+            </label>
+        </fieldset>
+
+
+        <h3 class="tell-us">Tell us about yourself</h3>
+
+        <label for="textbox" class="bio-title">Your biography</label><br>
+        <textarea name="textbox" id="textbox" rows="4" cols="50" class="bio"> </textarea>
+
+
+        <label class="select-location">Select location</label>
+        <label>
+            <select class="location">
+                <option value="actual value 1">Mayrhofen</option>
+                <option value="actual value 2">Valle De Sair</option>
+                <option value="actual value 3">Alps</option>
+            </select>
+        </label>
+
+        <fieldset class="rent">
+            <legend class="equipment">What equipment would you like to rent?</legend>
+            <label><input type="checkbox" name="skis"> Skis</label>
+            <label><input type="checkbox" name="helmet"> Helmet</label>
+            <label><input type="checkbox" name="goggles"> Goggles</label>
+            <label><input type="checkbox" name="ski-boots"> Ski boots</label>
+            <label><input type="checkbox" name="ski-poles"> Ski poles</label>
+        </fieldset>
+
+
+        <div class = "buttons">
+            <button class="reset">Reset</button>
+            <button class="submit">Submit</button>
+        </div>
+
+    </form>
+
+    <!--     </div> -->
+
+    <div class="right">
+        <h1 class="epic">Epic experience<br>in the snow</h1>
+        <!--         <img src="/assets/ski.jpeg" class="container"> -->
+    </div>
+
+</div>
+</body>
+</html>

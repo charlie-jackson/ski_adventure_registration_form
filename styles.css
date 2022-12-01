@@ -1,0 +1,189 @@
+p, h1, h2, h3, label, legend {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.right {
+    display: flex;
+    background-image: url('/ski.jpeg');
+    background-size: cover;
+    background-position: 90% 30%;
+    width: 40%;
+}
+
+.epic {
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    transform: translate(120px, 160px)
+}
+
+.register {
+    font-size: 32px;
+    margin-left: 60px;
+}
+
+.basic-info {
+    padding: 20px 0 20px 0;
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+.your-basic-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+.name, .email, .password, .bio, .location {
+    background-color: #E2E5ED;
+    border-radius: 8px;
+}
+
+.email, .password, .bio, .location {
+    border: none;
+}
+
+.enter-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    width: 620px;
+    height: 51px;
+    border: solid 1px #3E416D;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.enter-email {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 0 0;
+}
+
+.email {
+    width: 301px;
+    height: 51px;
+    color: #979797;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.enter-password {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.password {
+    width: 301px;
+    height: 51px;
+    color: #979797;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.red-mark {
+    color: red;
+}
+
+.age {
+    margin: 20px 0 20px 0;
+    padding: 0;
+}
+
+.radio {
+    accent-color: #C4C4C4;
+}
+
+.fieldset {
+    margin: 30px 0 60px 60px;
+    padding: 0;
+    gap: 20px;
+}
+
+.tell-us {
+    padding: 20px 0 20px 0;
+    margin-left: 60px;
+    font-size: 24px;
+}
+
+.bio-title {
+    margin-left: 60px;
+}
+
+.bio {
+    width: 620px;
+    height: 105px;
+    margin: 20px 0 30px 60px;
+}
+
+.select-location {
+    margin-left: 60px;
+}
+
+.location {
+    width: 620px;
+    height: 51px;
+    margin: 20px 0 30px 60px;
+    padding: 0 20px 0 20px;
+    color: #979797;
+}
+
+.equipment {
+    margin: 20px 0 20px 0;
+    padding: 0;
+}
+
+.rent {
+    margin: 30px 0 60px 60px;
+    padding: 0;
+    gap: 20px;
+}
+
+input[type='checkbox'] {
+    accent-color: #C4C4C4;
+}
+
+.buttons {
+    display: flex;
+    margin: 0 0 60px 60px;
+}
+
+.reset {
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 51px;
+    border-radius: 8px;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.submit {
+    background-color: #149770;
+    color: #FFFFFF;
+    width: 300px;
+    height: 51px;
+    border-radius: 8px;
+    border: none;
+    font-size: 22px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
